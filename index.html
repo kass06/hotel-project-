@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Hotel Booking App</title>
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking App</h1>
+    </header>
+    
+    <main>
+        <section class="search">
+            <h2>Search for Hotels</h2>
+            <label for="checkIn">Check-In Date:</label>
+            <input type="date" id="checkIn" required>
+            <label for="checkOut">Check-Out Date:</label>
+            <input type="date" id="checkOut" required>
+            <button onclick="searchHotels()">Search</button>
+        </section>
+
+        <section id="results" class="results">
+            <img src="" alt="">
+            <!-- Hotel search results will be displayed here -->
+        </section>
+    </main>
+
+<div class="attribution">
+    coded by <a href="#">Choy</a>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
